@@ -31,7 +31,7 @@ CLONE_DIR=$(mktemp -d)
 echo "[+] Cloning destination git repository $DESTINATION_REPOSITORY_NAME"
 echo "U: $USER_NAME"
 echo "T: $API_TOKEN_GITHUB"
-ehco "RU: $DESTINATION_REPOSITORY_USERNAME"
+echo "RU: $DESTINATION_REPOSITORY_USERNAME"
 # Setup git
 git config --global user.email "$USER_EMAIL"
 git config --global user.name "$USER_NAME"
